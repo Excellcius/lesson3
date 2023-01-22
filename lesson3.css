@@ -1,0 +1,49 @@
+/* Set the base font and font size for the entire document */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Style the header and logo */
+  header {
+    display: flex;
+    align-items: center;
+  }
+  header h1 {
+    margin-right: 10px;
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    display: flex;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav li {
+    margin-right: 10px;
+  }
+  nav a {
+    text-decoration: none;
+    color: #333333;
+  }
+  
+  /* Style the main content area */
+  main {
+    margin: 20px;
+  }
+  
+  /* Flexbox media query for responsive navigation */
+  @media (max-width: 600px) {
+    nav {
+      flex-direction: column;
+    }
+    nav li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
